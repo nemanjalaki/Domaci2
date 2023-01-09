@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    margin: 1 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -39,7 +39,7 @@ a{
     top: 0;
     min-height: 75px;
     padding: 0px 20px;
-    background-color: inherit;
+    background-color: white;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -151,9 +151,10 @@ h3{
   }
 
 .featured .list-1 ul li, .list-2 ul li{
-    border: 1px solid black;
-    margin: 1rem 0rem;
+    /* border: 1px solid black; */
+    margin: 1rem 1rem;
     position: relative;
+    background-color: rgba(244, 244, 244, 1);
 }
 .featured h4{
     font-size: 1rem;
@@ -197,8 +198,28 @@ h3{
     text-align: center;
   }
   .all-types .list-3 ul li{
-    margin: 1rem;
+    margin: 1rem 1rem;
+    position: relative;
+    background-color: rgba(244, 244, 244, 1);
   }
+.all-types p{
+    font-size: 1rem;
+}
+.all-types h4{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.footer{
+    margin-top:30px;
+    padding: 20px;
+    background-color: rgb(163, 159, 172) ;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+  }
+/* .footer{
 
-
-
+} */
+.footer ul li{
+    padding: 0 5px;
+  }
