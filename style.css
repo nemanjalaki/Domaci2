@@ -212,7 +212,7 @@ h3{
 .footer{
     margin-top:30px;
     padding: 20px;
-    background-color: rgb(163, 159, 172) ;
+    background-color: white;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
